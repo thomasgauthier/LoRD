@@ -1,3 +1,6 @@
+> [!NOTE]  
+> LoRD related code has a new home at [mergekit](https://github.com/arcee-ai/mergekit#lora-extraction). Extract any LoRA with `mergekit-extract-lora 'teknium/OpenHermes-2.5-Mistral-7B' 'mistralai/Mistral-7B-v0.1' 'extracted_OpenHermes-2.5-LoRA_output_path' --rank=32`
+
 ## LoRD: *Lo*w-*R*ank *D*ecomposition of finetuned Large Language Models
 
 This repository contains code for extracting LoRA adapters from finetuned `transformers` models, using Singular Value Decomposition (SVD). 
